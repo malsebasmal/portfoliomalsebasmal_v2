@@ -1,8 +1,13 @@
 @import "tailwindcss";
+@import '@fontsource-variable/geist/wght.css';
+@import '@fontsource-variable/jetbrains-mono/wght.css';
 
 @theme {
   --color-green-primary: "#2D5A27";
-  --color-green-primary: "#2D5A27";
-  --color-green-primary: "#2D5A27";
+  --color-rose-secondary: "#FF85A1";
+  --color-rose-tertiary: "#7C3A55";
+  --color-neutral: "#0F1610";
 
+  --font-body: 'Geist Variable', sans-serif;
+  --font-label: 'JetBrains Mono Variable', monospace;
 }
