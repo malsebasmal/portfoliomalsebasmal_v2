@@ -3,10 +3,15 @@ import jobsexperience from "@helpers/jobsexperience"
 import CardJobs from "@components/CardJobs.astro"
 ---
 
-<section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-  {
-    jobsexperience.map((job) => (
-      <CardJobs {...job} />
-    ))
-  }
+<section>
+  <h3>
+    Professional Experience
+  </h3>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    {
+      jobsexperience.map((job) => (
+        <CardJobs {...job} />
+      ))
+    }
+  </div>
 </section>
