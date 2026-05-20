@@ -1,14 +1,16 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Navbar from '@components/Navbar.astro';
-import Footer from '@components/Footer.astro';
-import Hero from '@components/Hero.astro';
+import Navbar from '@sections/Navbar.astro';
+import Footer from '@sections/Footer.astro';
+import Hero from '@sections/Hero.astro';
+import Experience from '@sections/Experience.astro';
 ---
 
 <Layout>
 	<Navbar />
 	<main>
 		<Hero />
+		<Experience />
 	</main>
 	<Footer />
 </Layout>
