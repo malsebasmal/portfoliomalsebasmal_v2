@@ -4,9 +4,14 @@
 
 @theme {
   --color-green-primary: #2D5A27;
-  --color-rose-secondary: #FF85A1;
-  --color-rose-tertiary: #7C3A55;
-  --color-neutral: #0F1610;
+  --color-green-secondary: #a1d494;
+
+  --color-rose-primary: #d1929e;
+  --color-rose-secondary: #ffb2c0;
+  --color-rose-tertiary: #640a2a;
+
+  --color-neutral: #181f17;
+  --color-background: #0e150e;
 
   --font-body: 'Geist Variable', sans-serif;
   --font-label: 'JetBrains Mono Variable', monospace;
