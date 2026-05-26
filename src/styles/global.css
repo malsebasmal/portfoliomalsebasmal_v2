@@ -13,6 +13,8 @@
   --color-neutral: #181f17;
   --color-background: #0e150e;
 
+  --color-gray-neutral: #7C8379
+
   --font-body: 'Geist Variable', sans-serif;
   --font-label: 'JetBrains Mono Variable', monospace;
 }
