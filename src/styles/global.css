@@ -6,14 +6,15 @@
   --color-green-primary: #2D5A27;
   --color-green-secondary: #a1d494;
 
+  --color-green-text-background: #1B2C1B;
+
   --color-rose-primary: #d1929e;
   --color-rose-secondary: #ffb2c0;
   --color-rose-tertiary: #640a2a;
+  --color-rose-background: #2C2A25;
 
   --color-neutral: #181f17;
   --color-background: #0e150e;
-
-  --color-gray-neutral: #7C8379
 
   --font-body: 'Geist Variable', sans-serif;
   --font-label: 'JetBrains Mono Variable', monospace;

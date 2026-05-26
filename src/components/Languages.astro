@@ -1,33 +1,38 @@
-<div>
-  <div>
-    <p>
+---
+import Job from "@icons/Job.astro";
+---
+
+<div class="w-md h-full bg-neutral rounded-lg px-8 py-8 border-l-4 border-green-secondary">
+  <div class="mb-4 flex flex-col justify-center gap-2">
+    <p class="text-rose-secondary font-bold font-label uppercase">
       Languages
     </p>
-    <ul>
-      <li>
+    <ul class="flex flex-col justify-center gap-1.5">
+      <li class="flex items-center justify-between text-gray-300">
         <p>
           Spanish
         </p>
-        <p>
+        <p class="font-label">
           Native
         </p>
       </li>
-      <li>
+      <li class="flex items-center justify-between text-gray-300">
         <p>
           English
         </p>
-        <p>
+        <p class="font-label">
           Conversational Proficiency
         </p>
       </li>
     </ul>
   </div>
-  <div>
-    <p>
-      Availability
+  <div class="border-[0.5px] border-neutral-700 w-full"></div>
+  <div class="mt-4 flex flex-col items-start justify-center gap-2">
+    <p class="text-rose-secondary font-bold font-label uppercase">
+      Status
     </p>
-    <p>
-      Open to new collaborations.
+    <p class="w-full flex items-center justify-center gap-2 bg-rose-background border-rose-secondary border-2 rounded-md py-4 px-2 font-semibold">
+      <Job /> Working at Caffelli
     </p>
   </div>
 </div>

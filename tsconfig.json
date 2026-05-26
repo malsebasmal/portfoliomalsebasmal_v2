@@ -9,7 +9,8 @@
       "@components/*": ["./src/components/*"],
       "@layouts/*": ["./src/layouts/*"],
       "@sections/*": ["./src/sections/*"],
-      "@helpers/*": ["./src/helpers/*"]
+      "@helpers/*": ["./src/helpers/*"],
+      "@icons/*": ["./src/icons/*"]
     }
   }
 }

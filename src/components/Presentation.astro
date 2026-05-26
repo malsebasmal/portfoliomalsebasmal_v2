@@ -2,30 +2,28 @@
 import Languages from "@components/Languages.astro";
 ---
 
-<div>
-  <div>
-    <h3>
+<div class="flex items-stretch justify-between gap-6 mt-8">
+  <div class="flex-1 bg-neutral rounded-lg px-8 py-8 flex flex-col items-start justify-center gap-6">
+    <h3 class="text-3xl font-bold">
       Architecture of Aesthetics
     </h3>
-    <p>
+    <p class="text-gray-300">
       Frontend Developer specialized in building scalable web interfaces and SaaS products. I've worked across real estate platforms, cultural organizations, and startups — turning design systems and business requirements into clean, performant code. Currently focused on React ecosystems, component-driven architecture, and AI-assisted development workflows.
     </p>
-    <ul>
-      <li>
+    <ul class="flex items-center gap-4">
+      <li class="bg-green-text-background text-green-secondary border-green-secondary border-2 rounded-full text-sm tracking-wide px-4">
         React Ecosystems
       </li>
-      <li>
+      <li class="bg-green-text-background text-green-secondary border-green-secondary border-2 rounded-full text-sm tracking-wide px-4">
         Component-Driven
       </li>
-      <li>
+      <li class="bg-green-text-background text-green-secondary border-green-secondary border-2 rounded-full text-sm tracking-wide px-4">
         AI Workflows
       </li>
-      <li>
+      <li class="bg-green-text-background text-green-secondary border-green-secondary border-2 rounded-full text-sm tracking-wide px-4">
         Design Systems
       </li>
     </ul>
   </div>
-  <div>
-    <Languages />
-  </div>
+  <Languages />
 </div>
