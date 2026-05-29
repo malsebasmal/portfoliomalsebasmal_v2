@@ -13,7 +13,7 @@ const jobsexperience = [
     time: "Aug 2025 - Apr 2026",
     about:
       "Developed the NEO dashboard for a SaaS real estate platform. Integrated AI workflows using Claude MCP.",
-    type: true,
+    type: false,
   },
   {
     company: "Finniu",
@@ -21,7 +21,7 @@ const jobsexperience = [
     time: "Mar 2025 - Jun 2025",
     about:
       "Led a comprehensive rebranding effort and developed an interactive investment simulator.",
-    type: true,
+    type: false,
   },
   {
     company: "Devdateb Consulting",

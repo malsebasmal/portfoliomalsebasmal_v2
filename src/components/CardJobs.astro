@@ -2,14 +2,28 @@
 const { company, position, time, about, type } = Astro.props;
 ---
 
-<div>
-  <h4>
-    {company}
-  </h4>
-  <h5>
+<div
+  class="bg-neutral rounded-lg py-8 px-8 flex flex-col items-start justify-center gap-6"
+>
+  <div class="w-full flex items-center justify-start gap-3">
+    <div
+      class="border-l-6 border-solid border-green-secondary h-6 rounded-full"
+    >
+    </div>
+    <h4 class="text-xl font-bold">
+      {company}
+    </h4>
+  </div>
+  <h5 class="font-medium font-label text-rose-secondary">
     {position}
   </h5>
-  <p>
+  <p
+    class={`font-label rounded-md px-4 py-1 font-black border text-sm border-green-secondary ${
+      type
+        ? "bg-green-secondary text-green-primary"
+        : "bg-green-text-background text-green-secondary"
+    }`}
+  >
     {time}
   </p>
   <p>
