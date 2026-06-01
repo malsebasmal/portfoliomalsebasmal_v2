@@ -1,0 +1,46 @@
+---
+import Leaf from "@icons/Leaf.astro";
+import Send from "@icons/Send.astro";
+import Linkedin from "@icons/LinkedIn.astro";
+import GitHub from "@icons/Github.astro";
+---
+
+<div
+  class="w-full rounded-lg bg-neutral px-8 py-8 flex items-stretch justify-between gap-4"
+>
+  <div class="flex items-center justify-center gap-8">
+    <div
+      class="w-fit px-8 py-8 bg-green-text-background border-green-secondary border rounded-md"
+    >
+      <Leaf />
+    </div>
+    <div class="flex flex-col items-start gap-2">
+      <p class="text-3xl font-bold">Ready to grow together?</p>
+      <p class="text-2xl text-gray-300">
+        I'm currently open to new collaborations and challenging projects.
+      </p>
+    </div>
+  </div>
+  <div class="w-md flex flex-col items-center justify-center gap-4">
+    <button
+      class="w-full flex items-center justify-center gap-2 px-8 py-4 font-label font-bold rounded-md bg-rose-primary text-rose-tertiary"
+    >
+      <Send />
+      Send Message
+    </button>
+    <div class="w-full flex items-center justify-center gap-4">
+      <button
+        class="w-full flex items-center justify-center gap-2 px-8 py-4 font-label font-bold rounded-md bg-green-secondary text-green-text-background"
+      >
+        <Linkedin />
+        LinkedIn
+      </button>
+      <button
+        class="w-full flex items-center justify-center gap-2 px-8 py-4 font-label font-bold rounded-md bg-green-secondary text-green-text-background"
+      >
+        <GitHub />
+        GitHub
+      </button>
+    </div>
+  </div>
+</div>

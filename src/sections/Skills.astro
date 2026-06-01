@@ -1,8 +1,15 @@
 ---
 import Terminal from "@components/Terminal.astro";
+import ContactMe from "@components/ContactMe.astro";
 ---
 
 <section>
-  <h3>Skills & Education</h3>
-  <Terminal />
+  <div class="w-full flex items-center justify-center gap-4 mb-4">
+    <h3 class="text-3xl font-bold">Skills & Contact me</h3>
+    <div class="border-[0.5px] border-solid border-neutral-700 flex-1"></div>
+  </div>
+  <div>
+    <Terminal />
+    <ContactMe />
+  </div>
 </section>
