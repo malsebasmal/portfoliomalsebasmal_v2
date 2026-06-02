@@ -6,17 +6,17 @@ import GitHub from "@icons/Github.astro";
 ---
 
 <div
-  class="contact_me w-full rounded-lg bg-neutral px-8 py-8 flex items-stretch justify-between gap-4"
+  class="shadow-terminal flex-1 w-full rounded-lg bg-neutral px-8 py-8 flex items-stretch justify-between gap-4"
 >
   <div class="flex items-center justify-center gap-8">
     <div
-      class="w-fit px-8 py-8 bg-green-text-background border-green-secondary border rounded-md"
+      class="w-fit px-4 py-4 bg-green-text-background border-green-secondary border rounded-md"
     >
       <Leaf />
     </div>
     <div class="flex flex-col items-start gap-2">
-      <p class="text-2xl font-bold">Ready to grow together?</p>
-      <p class="text-lg text-gray-300">
+      <p class="text-4xl font-bold">Ready to grow together?</p>
+      <p class="text-2xl text-gray-300">
         I'm currently open to new collaborations and challenging projects.
       </p>
     </div>
@@ -29,28 +29,22 @@ import GitHub from "@icons/Github.astro";
       Send Message
     </button>
     <div class="w-full flex items-center justify-center gap-4">
-      <button
+      <a
         class="w-full flex items-center justify-center gap-2 px-8 py-4 font-label font-bold rounded-md bg-green-secondary text-green-text-background"
+        href="https://www.linkedin.com/in/antoniomaldonadotech/"
+        target="_blank"
       >
         <Linkedin />
         LinkedIn
-      </button>
-      <button
+      </a>
+      <a
         class="w-full flex items-center justify-center gap-2 px-8 py-4 font-label font-bold rounded-md bg-green-secondary text-green-text-background"
+        href="https://github.com/malsebasmal"
+        target="_blank"
       >
         <GitHub />
         GitHub
-      </button>
+      </a>
     </div>
   </div>
 </div>
-
-<style>
-  .contact_me {
-    box-shadow:
-      0 0 0 1px
-        color-mix(in srgb, var(--color-green-secondary) 15%, transparent),
-      0 25px 60px color-mix(in srgb, black 60%, transparent),
-      0 0 80px color-mix(in srgb, var(--color-green-primary) 10%, transparent);
-  }
-</style>

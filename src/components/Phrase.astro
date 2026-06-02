@@ -1,4 +1,8 @@
-<div class="flex flex-col items-start justify-center gap-4">
+---
+import FadeInText from "@astroanimate/core/FadeInText";
+---
+
+<div class="flex flex-col items-start justify-center gap-6">
   <div>
     <p
       class="font-label uppercase tracking-wide font-bold text-green-secondary"
@@ -14,18 +18,8 @@
     </p>
   </div>
   <div
-    class="phrase font-label px-6 py-4 bg-neutral rounded-lg w-fit text-gray-300"
+    class="shadow-terminal font-label px-6 py-4 bg-neutral rounded-lg w-fit text-gray-300"
   >
     <p>portfoliomalsebasmal.elf</p>
   </div>
 </div>
-
-<style>
-  .phrase {
-    box-shadow:
-      0 0 0 1px
-        color-mix(in srgb, var(--color-green-secondary) 15%, transparent),
-      0 25px 60px color-mix(in srgb, black 60%, transparent),
-      0 0 80px color-mix(in srgb, var(--color-green-primary) 10%, transparent);
-  }
-</style>

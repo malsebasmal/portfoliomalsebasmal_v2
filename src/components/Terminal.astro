@@ -3,7 +3,7 @@
 // Terminal-style skills component with animated typewriter effect
 ---
 
-<div class="terminal-wrapper">
+<div class="flex-1 terminal-wrapper">
   <div class="terminal-window">
     <!-- Window chrome -->
     <div class="terminal-header">
@@ -12,7 +12,7 @@
         <span class="dot dot-yellow"></span>
         <span class="dot dot-green"></span>
       </div>
-      <span class="terminal-title">antonio@portfolio: ~</span>
+      <span class="terminal-title text-lg">antonio@portfolio: ~</span>
     </div>
 
     <!-- Terminal body -->
@@ -137,7 +137,6 @@
 
   .terminal-title {
     color: color-mix(in srgb, var(--color-green-secondary) 50%, transparent);
-    font-size: 0.75rem;
     letter-spacing: 0.04em;
   }
 
@@ -168,7 +167,6 @@
   .terminal-line {
     display: flex;
     align-items: baseline;
-    font-size: 0.8125rem;
     line-height: 1.5;
   }
 
@@ -191,7 +189,6 @@
   /* ── Typewriter commands ────────────────────── */
   .cmd {
     color: #e8e8e8;
-    font-size: 0.8125rem;
     overflow: hidden;
     white-space: nowrap;
     display: inline-block;
@@ -235,20 +232,17 @@
 
   .stack-arrow {
     color: var(--color-green-secondary);
-    font-size: 0.875rem;
     flex-shrink: 0;
   }
 
   .stack-text {
     color: #d4d4d4;
-    font-size: 0.8125rem;
     line-height: 1.5;
   }
 
   /* ── Focus text ─────────────────────────────── */
   .focus-text {
     color: color-mix(in srgb, #e8e8e8 85%, transparent);
-    font-size: 0.8rem;
     line-height: 1.75;
     font-style: italic;
     margin: 0.25rem 0 0;
@@ -269,7 +263,6 @@
   .cursor-blink {
     color: var(--color-green-secondary);
     animation: blink 1.1s step-end infinite;
-    font-size: 0.875rem;
     margin-left: 0.1rem;
   }
 

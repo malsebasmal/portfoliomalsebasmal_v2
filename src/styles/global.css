@@ -19,3 +19,10 @@
   --font-body: "Geist Variable", sans-serif;
   --font-label: "JetBrains Mono Variable", monospace;
 }
+
+@utility shadow-terminal {
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--color-green-secondary) 15%, transparent),
+    0 25px 60px color-mix(in srgb, black 60%, transparent),
+    0 0 80px color-mix(in srgb, var(--color-green-primary) 10%, transparent);
+}
