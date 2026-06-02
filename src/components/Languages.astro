@@ -2,7 +2,7 @@
 import Job from "@icons/Job.astro";
 ---
 
-<div class="w-md h-full bg-neutral rounded-lg px-8 py-8">
+<div class="lenguages w-md h-full bg-neutral rounded-lg px-8 py-8">
   <div class="mb-4 flex flex-col justify-center gap-2">
     <p class="text-rose-secondary font-bold font-label uppercase">Languages</p>
     <ul class="flex flex-col justify-center gap-1.5">
@@ -26,3 +26,13 @@ import Job from "@icons/Job.astro";
     </p>
   </div>
 </div>
+
+<style>
+  .lenguages {
+    box-shadow:
+      0 0 0 1px
+        color-mix(in srgb, var(--color-green-secondary) 15%, transparent),
+      0 25px 60px color-mix(in srgb, black 60%, transparent),
+      0 0 80px color-mix(in srgb, var(--color-green-primary) 10%, transparent);
+  }
+</style>

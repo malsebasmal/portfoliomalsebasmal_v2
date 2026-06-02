@@ -6,7 +6,7 @@ import GitHub from "@icons/Github.astro";
 ---
 
 <div
-  class="w-full rounded-lg bg-neutral px-8 py-8 flex items-stretch justify-between gap-4"
+  class="contact_me w-full rounded-lg bg-neutral px-8 py-8 flex items-stretch justify-between gap-4"
 >
   <div class="flex items-center justify-center gap-8">
     <div
@@ -15,8 +15,8 @@ import GitHub from "@icons/Github.astro";
       <Leaf />
     </div>
     <div class="flex flex-col items-start gap-2">
-      <p class="text-3xl font-bold">Ready to grow together?</p>
-      <p class="text-2xl text-gray-300">
+      <p class="text-2xl font-bold">Ready to grow together?</p>
+      <p class="text-lg text-gray-300">
         I'm currently open to new collaborations and challenging projects.
       </p>
     </div>
@@ -44,3 +44,13 @@ import GitHub from "@icons/Github.astro";
     </div>
   </div>
 </div>
+
+<style>
+  .contact_me {
+    box-shadow:
+      0 0 0 1px
+        color-mix(in srgb, var(--color-green-secondary) 15%, transparent),
+      0 25px 60px color-mix(in srgb, black 60%, transparent),
+      0 0 80px color-mix(in srgb, var(--color-green-primary) 10%, transparent);
+  }
+</style>

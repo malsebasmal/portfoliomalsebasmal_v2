@@ -3,7 +3,7 @@ const { company, position, time, about, type } = Astro.props;
 ---
 
 <div
-  class="bg-neutral rounded-lg py-8 px-8 flex flex-col items-start justify-center gap-6"
+  class="card_jobs bg-neutral rounded-lg py-8 px-8 flex flex-col items-start justify-center gap-6"
 >
   <div class="w-full flex items-center justify-start gap-3">
     <div
@@ -30,3 +30,13 @@ const { company, position, time, about, type } = Astro.props;
     {about}
   </p>
 </div>
+
+<style>
+  .card_jobs {
+    box-shadow:
+      0 0 0 1px
+        color-mix(in srgb, var(--color-green-secondary) 15%, transparent),
+      0 25px 60px color-mix(in srgb, black 60%, transparent),
+      0 0 80px color-mix(in srgb, var(--color-green-primary) 10%, transparent);
+  }
+</style>
