@@ -1,5 +1,5 @@
 export const siteMetadata = {
-  title: "Antonio Maldonado E. — Fullstack Developer",
+  title: "Antonio Maldonado E. | Fullstack Developer",
   description:
     "Frontend Developer specialized in building scalable web interfaces and SaaS products. React ecosystems, component-driven architecture, and AI-assisted development workflows.",
   author: "Antonio Maldonado E.",

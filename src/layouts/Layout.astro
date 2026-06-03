@@ -1,5 +1,20 @@
 ---
 import "@styles/global.css";
+import { siteMetadata } from "@helpers/metadata";
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  url?: string;
+}
+
+const {
+  title = siteMetadata.title,
+  description = siteMetadata.description,
+  image = siteMetadata.image,
+  url = siteMetadata.url,
+} = Astro.props;
 ---
 
 <!doctype html>
@@ -8,9 +23,35 @@ import "@styles/global.css";
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="/faviconprofile.png" />
     <meta name="generator" content={Astro.generator} />
-    <title>Portfolio de Antonio Maldonado E.</title>
+
+    <!-- Primary SEO -->
+    <title>{title}</title>
+    <meta name="title" content={title} />
+    <meta name="description" content={description} />
+    <meta name="author" content={siteMetadata.author} />
+    <meta name="keywords" content={siteMetadata.keywords} />
+    <link rel="canonical" href={url} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={url} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={image} />
+    <meta property="og:locale" content={siteMetadata.locale} />
+    <meta property="og:site_name" content={siteMetadata.siteName} />
+
+    <!-- LinkedIn -->
+    <meta property="og:profile:first_name" content="Antonio" />
+    <meta property="og:profile:last_name" content="Maldonado" />
+    <meta property="og:see_also" content={siteMetadata.social.linkedin} />
+    <meta property="og:see_also" content={siteMetadata.social.github} />
+
+    <!-- Extras -->
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content={siteMetadata.themeColor} />
   </head>
   <body class="font-body bg-background text-white px-20">
     <slot />
