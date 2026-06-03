@@ -1,1 +1,1 @@
-![inspiration](inspiration.png)
+
