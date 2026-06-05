@@ -14,7 +14,7 @@ export default function CardJobs({
   type,
 }: Props) {
   return (
-    <div className="shadow-terminal bg-neutral rounded-lg py-8 px-8 flex flex-col items-start justify-center gap-6">
+    <div className="shadow-terminal bg-neutral rounded-lg px-6 md:px-8 py-6 md:py-8 flex flex-col items-start justify-center gap-6">
       <div className="w-full flex items-center justify-start gap-3">
         <div className="border-l-6 border-solid border-green-secondary h-6 rounded-full" />
         <h4 className="text-xl font-bold">{company}</h4>
