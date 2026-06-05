@@ -6,11 +6,11 @@ import GitHub from "@icons/Github.astro";
 ---
 
 <div
-  class="shadow-terminal flex-1 w-full rounded-lg bg-neutral px-8 py-8 flex items-stretch justify-between gap-4"
+  class="shadow-terminal flex-1 w-full rounded-lg bg-neutral px-8 py-8 flex flex-col xl:flex-row items-stretch justify-between gap-4"
 >
   <div class="flex items-center justify-center gap-8">
     <div
-      class="w-fit px-4 py-4 bg-green-text-background border-green-secondary border rounded-md"
+      class="hidden md:w-fit px-4 py-4 bg-green-text-background border-green-secondary border rounded-md"
     >
       <Leaf />
     </div>
@@ -21,7 +21,7 @@ import GitHub from "@icons/Github.astro";
       </p>
     </div>
   </div>
-  <div class="w-md flex flex-col items-center justify-center gap-4">
+  <div class="w-full md:w-md flex flex-col items-center justify-center gap-4">
     <button
       class="w-full flex items-center justify-center gap-2 px-8 py-4 font-label font-bold rounded-md bg-rose-primary text-rose-tertiary"
     >

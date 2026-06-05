@@ -2,16 +2,22 @@
 import Job from "@icons/Job.astro";
 ---
 
-<div class="shadow-terminal w-md h-full bg-neutral rounded-lg px-8 py-8">
+<div
+  class="shadow-terminal w-full xl:w-md h-full bg-neutral rounded-lg px-8 py-8"
+>
   <div class="mb-4 flex flex-col justify-center gap-2">
     <p class="text-rose-secondary font-bold font-label uppercase">Languages</p>
-    <ul class="flex flex-col justify-center gap-1.5">
-      <li class="flex items-center justify-between">
-        <p class="text-gray-300">Spanish</p>
+    <ul class="flex flex-col justify-center gap-4 md:gap-1.5">
+      <li
+        class="flex flex-col md:flex-row items-start md:items-center justify-between gap-1.5 md:gap-0"
+      >
+        <p class="text-gray-300 font-medium md:font-normal">Spanish</p>
         <p class="font-label">Native</p>
       </li>
-      <li class="flex items-center justify-between">
-        <p class="text-gray-300">English</p>
+      <li
+        class="flex flex-col md:flex-row items-start md:items-center justify-between gap-1.5 md:gap-0"
+      >
+        <p class="text-gray-300 font-medium md:font-normal">English</p>
         <p class="font-label">Conversational Proficiency</p>
       </li>
     </ul>

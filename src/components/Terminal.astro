@@ -12,7 +12,9 @@
         <span class="dot dot-yellow"></span>
         <span class="dot dot-green"></span>
       </div>
-      <span class="terminal-title text-lg">antonio@portfolio: ~</span>
+      <span class="terminal-title text-base md:text-lg"
+        >antonio@portfolio: ~</span
+      >
     </div>
 
     <!-- Terminal body -->
@@ -53,7 +55,7 @@
         <div class="terminal-divider"></div>
 
         <!-- Right panel: cat focus.txt -->
-        <div class="terminal-panel" id="panel-right">
+        <div class="mt-4 lg:mt-0 terminal-panel" id="panel-right">
           <div class="terminal-line prompt-line">
             <span class="prompt-user">antonio@portfolio</span><span
               class="prompt-separator">:</span
@@ -63,7 +65,7 @@
             <span class="cmd cmd-right"></span>
           </div>
 
-          <p class="focus-text">
+          <p class="focus-text text-balance md:text-pretty">
             "Building performant, accessible, and scalable frontend
             architectures with a component-first mindset."
           </p>
@@ -309,7 +311,7 @@
   }
 
   /* ── Responsive ─────────────────────────────── */
-  @media (max-width: 640px) {
+  @media (max-width: 900px) {
     .terminal-grid {
       grid-template-columns: 1fr;
     }

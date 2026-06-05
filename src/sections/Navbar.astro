@@ -5,11 +5,18 @@ import Verify from "@icons/Verify.astro";
 <header class="w-full pt-4 pb-4 border-b-2 border-neutral">
   <nav class="w-full h-full flex items-center justify-between">
     <div class="flex items-center justify-center gap-4">
-      <h2 class="text-3xl font-bold">Antonio Maldonado E.</h2>
-      <Verify />
+      <div class="inline md:hidden">
+        <Verify />
+      </div>
+      <h2 class="text-balance text-lg md:text-3xl font-bold">
+        Antonio Maldonado E.
+      </h2>
+      <div class="hidden md:inline">
+        <Verify />
+      </div>
     </div>
     <ul
-      class="flex items-center justify-center gap-8 text-lg [&>li]:cursor-pointer [&>li]:transition-all [&>li:hover]:text-green-secondary [&>li:hover]:font-bold [&>li:hover]:border-b-2"
+      class="hidden xl:flex items-center justify-center gap-8 text-lg [&>li]:cursor-pointer [&>li]:transition-all [&>li:hover]:text-green-secondary [&>li:hover]:font-bold [&>li:hover]:border-b-2"
     >
       <li>About</li>
       <li>Experience</li>
@@ -17,7 +24,7 @@ import Verify from "@icons/Verify.astro";
       <li>Contact</li>
     </ul>
     <button
-      class="px-8 py-4 font-label font-bold rounded-lg bg-rose-primary text-rose-tertiary"
+      class="px-4 md:px-8 py-2 md:py-4 font-label font-bold rounded-lg bg-rose-primary text-rose-tertiary"
     >
       Download cv
     </button>
