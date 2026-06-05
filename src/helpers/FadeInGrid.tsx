@@ -42,6 +42,7 @@ export default function FadeInGrid({
               opacity: 0,
               animation: "fadeInUp 0.5s ease-out forwards",
               animationDelay: `${idx * delay}ms`,
+              transformStyle: "preserve-3d",
             }}
           >
             {child}

@@ -3,32 +3,32 @@ import Job from "@icons/Job.astro";
 ---
 
 <div
-  class="shadow-terminal w-full xl:w-md h-full bg-neutral rounded-lg px-6 md:px-8 py-6 md:py-8"
+  id="languages-card"
+  class="animate-fade-up shadow-terminal w-full xl:w-md h-full bg-neutral rounded-lg px-6 md:px-8 py-6 md:py-8"
 >
   <div class="mb-4 flex flex-col justify-center gap-2">
     <p class="text-rose-secondary font-bold font-label uppercase">Languages</p>
     <ul class="flex flex-col justify-center gap-4 md:gap-1.5">
-      <li
-        class="flex flex-col md:flex-row items-start md:items-center justify-between gap-1.5 md:gap-0"
-      >
+      <li class="flex flex-col md:flex-row items-start md:items-center justify-between gap-1.5 md:gap-0">
         <p class="text-gray-300 font-medium md:font-normal">Spanish</p>
         <p class="font-label">Native</p>
       </li>
-      <li
-        class="flex flex-col md:flex-row items-start md:items-center justify-between gap-1.5 md:gap-0"
-      >
+      <li class="flex flex-col md:flex-row items-start md:items-center justify-between gap-1.5 md:gap-0">
         <p class="text-gray-300 font-medium md:font-normal">English</p>
         <p class="font-label">Conversational Proficiency</p>
       </li>
     </ul>
   </div>
-  <div class="border-[0.5px] border-solid border-neutral-700 w-full"></div>
+  <div class="border-[0.5px] border-solid border-neutral-800 w-full"></div>
   <div class="mt-4 flex flex-col items-start justify-center gap-2">
     <p class="text-rose-secondary font-bold font-label uppercase">Status</p>
-    <p
-      class="w-full flex items-center justify-center gap-2 bg-rose-background border-rose-secondary border rounded-md py-4 px-2 font-semibold"
-    >
+    <p class="w-full flex items-center justify-center gap-2 bg-rose-background border-rose-secondary border rounded-md py-4 px-2 font-semibold hover:bg-rose-secondary hover:text-rose-tertiary transition-all">
       <Job /> Working at Caffelli
     </p>
   </div>
 </div>
+
+<script>
+  import { observeAnimation } from "@utils/observeAnimation";
+  observeAnimation("#languages-card", 250);
+</script>

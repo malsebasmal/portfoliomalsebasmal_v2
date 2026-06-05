@@ -26,3 +26,14 @@
     0 25px 60px color-mix(in srgb, black 60%, transparent),
     0 0 80px color-mix(in srgb, var(--color-green-primary) 10%, transparent);
 }
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@utility animate-fade-up {
+  opacity: 0;
+  animation: fade-up 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation-play-state: paused;
+}

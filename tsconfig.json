@@ -26,6 +26,9 @@
       ],
       "@icons/*": [
         "./src/icons/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
       ]
     },
     "jsx": "react-jsx",

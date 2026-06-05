@@ -1,21 +1,23 @@
-<div class="flex flex-col items-start justify-center gap-4 md:gap-6">
+<div
+  id="phare"
+  class="animate-fade-up flex flex-col items-start justify-center gap-4 md:gap-6"
+>
   <div>
-    <p
-      class="font-label uppercase tracking-wide font-bold text-green-secondary"
-    >
+    <p class="font-label uppercase tracking-wide font-bold text-green-secondary">
       Frontend Developer
     </p>
   </div>
   <div>
     <p class="text-4xl md:text-5xl font-bold">
-      Building <span class="italic text-rose-secondary"
-        >scalable web products</span
-      > with precision.
+      Building <span class="italic text-rose-secondary">scalable web products</span> with precision.
     </p>
   </div>
-  <div
-    class="shadow-terminal font-label px-6 py-4 bg-neutral rounded-lg hidden md:inline w-fit text-gray-300"
-  >
+  <div class="shadow-terminal font-label px-6 py-4 bg-neutral rounded-lg hidden md:inline w-fit text-gray-300">
     <p>portfoliomalsebasmal.elf</p>
   </div>
 </div>
+
+<script>
+  import { observeAnimation } from "@utils/observeAnimation";
+  observeAnimation("#phare", 150);
+</script>
