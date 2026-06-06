@@ -14,7 +14,7 @@ export default function Experience() {
         el.style.animationPlayState = "running";
         observer.disconnect();
       }
-    }, { threshold: 0.2 });
+    }, { threshold: 0 });
 
     observer.observe(el);
 

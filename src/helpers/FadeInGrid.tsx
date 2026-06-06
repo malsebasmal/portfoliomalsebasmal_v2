@@ -38,6 +38,7 @@ export default function FadeInGrid({
         {Children.toArray(children).map((child, idx) => (
           <div
             key={idx}
+            className="h-full"
             style={{
               opacity: 0,
               animation: "fadeInUp 0.5s ease-out forwards",

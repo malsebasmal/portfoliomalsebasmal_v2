@@ -4,7 +4,7 @@ const jobsexperience = [
     position: "Full Stack Developer",
     time: "Jan 2026 - Present",
     about:
-      "Building robust web solutions and maintaining complex architectures for innovative client projects.",
+      "Building and maintaining web solutions for client projects in a fully remote US-based team.",
     type: true,
   },
   {
@@ -12,7 +12,7 @@ const jobsexperience = [
     position: "Frontend Web Developer",
     time: "Aug 2025 - Apr 2026",
     about:
-      "Developed the NEO dashboard for a SaaS real estate platform. Integrated AI workflows using Claude MCP.",
+      "Built end-to-end modules for NEO, a multi-role SaaS real estate dashboard. Integrated Claude MCP into the dev workflow, cutting implementation time and improving code quality.",
     type: false,
   },
   {
@@ -20,7 +20,7 @@ const jobsexperience = [
     position: "Frontend Web Developer",
     time: "Mar 2025 - Jun 2025",
     about:
-      "Led a comprehensive rebranding effort and developed an interactive investment simulator.",
+      "Led a full frontend rebranding from Figma to production across 9 views. Built an interactive investment simulator with real-time ROI calculation for a platform with 500+ investors.",
     type: false,
   },
   {
@@ -28,15 +28,15 @@ const jobsexperience = [
     position: "Frontend Web Developer",
     time: "Jun 2024 - Dec 2024",
     about:
-      "Built a specialized platform for freestyle rap events with real-time updates.",
+      "Contributed to a freestyle rap events platform within an established team, delivering features from onboarding through final deployment under real-world workflows.",
     type: false,
   },
   {
     company: "LoloBelo",
     position: "Full Stack Developer",
-    time: "Abr 2024 - May 2024",
+    time: "Apr 2024 - May 2024",
     about:
-      "Developed an interactive digital menu system using Astro for optimized performance.",
+      "Replaced a PDF-based menu with a responsive digital experience using Astro. Led the project from Figma design to deployment, integrating the restaurant's API for dynamic content.",
     type: false,
   },
   {
@@ -44,7 +44,7 @@ const jobsexperience = [
     position: "Full Stack Developer",
     time: "Jan 2024 - Feb 2024",
     about:
-      "Created a digital space for a cultural collective, focusing on community identity.",
+      "Designed and developed the official site for a Lima cultural collective using Astro and Tailwind CSS, with a project gallery and events system built for easy future updates.",
     type: false,
   },
 ];

@@ -56,7 +56,7 @@ export default function CardJobs({
       ref={cardRef}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
-      className="shadow-terminal bg-neutral rounded-lg px-6 md:px-8 py-6 md:py-8 flex flex-col items-start justify-center gap-6 relative overflow-hidden will-change-transform"
+      className="h-full shadow-terminal bg-neutral rounded-lg px-6 md:px-8 py-6 md:py-8 flex flex-col items-start justify-start gap-6 relative overflow-hidden will-change-transform"
       style={{
         transformStyle: "preserve-3d",
         transition: "transform 0.2s ease-out",
