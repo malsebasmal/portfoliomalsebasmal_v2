@@ -1,3 +1,19 @@
+<style>
+  .hero-span {
+    position: relative;
+    display: inline;
+    cursor: default;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .hero-span:hover {
+    color: var(--color-rose-primary);
+    text-shadow:
+      0 0 20px color-mix(in srgb, var(--color-rose-secondary) 40%, transparent),
+      0 0 40px color-mix(in srgb, var(--color-rose-primary) 20%, transparent);
+  }
+</style>
+
 <div
   id="phare"
   class="animate-fade-up flex flex-col items-start justify-center gap-4 md:gap-6"
@@ -9,11 +25,11 @@
   </div>
   <div>
     <p class="text-4xl md:text-5xl font-bold">
-      Turning ideas into <span class="italic text-rose-secondary">precise, scalable</span> web products.
+      Turning ideas into <span class="hero-span italic text-rose-secondary">precise, scalable</span> web products.
     </p>
   </div>
   <div class="shadow-terminal font-label px-6 py-4 bg-neutral rounded-lg hidden md:inline w-fit text-gray-300">
-    <p>portfoliomalsebasmal.elf</p>
+    <p>portfolio.elf</p>
   </div>
 </div>
 
