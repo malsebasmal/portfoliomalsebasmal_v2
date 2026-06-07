@@ -1,15 +1,15 @@
 export const siteMetadata = {
-  title: "Antonio Maldonado E. | Fullstack Developer",
+  title: "Antonio Maldonado E. | Frontend Developer",
   description:
-    "Frontend Developer specialized in building scalable web interfaces and SaaS products. React ecosystems, component-driven architecture, and AI-assisted development workflows.",
-  author: "Antonio Maldonado E.",
+    "Frontend Developer specialized in building scalable web interfaces and SaaS products across real estate, fintech, and cultural platforms. React · Next.js · TypeScript · Astro.",
+  author: "Antonio Sebastian Maldonado Echevarria",
   keywords:
-    "fullstack developer, frontend developer, react, astro, typescript, saas, web development, portfolio",
+    "frontend developer, react developer, next.js, typescript, astro, tailwind css, saas dashboard, web portfolio, antonio maldonado, peru developer, remote developer",
   url: "https://portfoliomalsebasmal.elf",
   image: "/og-image.png",
-  locale: "es_PE",
+  locale: "en_US",
   siteName: "Antonio Maldonado E.",
-  themeColor: "#0a0a0a",
+  themeColor: "0e150e",
   social: {
     linkedin: "https://www.linkedin.com/in/antoniomaldonadotech",
     github: "https://github.com/malsebasmal",
