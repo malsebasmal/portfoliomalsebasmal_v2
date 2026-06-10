@@ -28,12 +28,26 @@
 }
 
 @keyframes fade-up {
-  from { opacity: 0; transform: translateY(24px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @utility animate-fade-up {
   opacity: 0;
   animation: fade-up 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
   animation-play-state: paused;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id="about"] {
+  scroll-margin-top: 35px;
 }
