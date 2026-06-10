@@ -21,12 +21,31 @@ import Verify from "@icons/Verify.astro";
         <Verify />
       </div>
     </div>
-    <ul
-      class="hidden xl:flex items-center justify-center gap-8 text-lg [&>li]:cursor-pointer [&>li]:transition-all [&>li:hover]:text-green-secondary [&>li:hover]:font-bold [&>li:hover]:border-b-2"
-    >
-      <a class="nav-link font-medium" href="/#about">About</a>
-      <a class="nav-link font-medium" href="/#experience">Experience</a>
-      <a class="nav-link font-medium" href="/#skills">Skills & Contact me</a>
+    <ul class="hidden xl:flex items-center justify-center gap-8 text-lg">
+      <a
+        class="relative font-medium transition-all duration-300 hover:text-green-secondary hover:-translate-y-0.5
+               after:absolute after:bottom-0 after:left-1/2 after:h-0.5 after:w-0 after:bg-green-secondary
+               after:transition-all after:duration-300 after:-translate-x-1/2 hover:after:w-full"
+        href="/#about"
+      >
+        About
+      </a>
+      <a
+        class="relative font-medium transition-all duration-300 hover:text-green-secondary hover:-translate-y-0.5
+               after:absolute after:bottom-0 after:left-1/2 after:h-0.5 after:w-0 after:bg-green-secondary
+               after:transition-all after:duration-300 after:-translate-x-1/2 hover:after:w-full"
+        href="/#experience"
+      >
+        Experience
+      </a>
+      <a
+        class="relative font-medium transition-all duration-300 hover:text-green-secondary hover:-translate-y-0.5
+               after:absolute after:bottom-0 after:left-1/2 after:h-0.5 after:w-0 after:bg-green-secondary
+               after:transition-all after:duration-300 after:-translate-x-1/2 hover:after:w-full"
+        href="/#skills"
+      >
+        Skills & Contact me
+      </a>
     </ul>
     <a
       href="/AntonioMaldonado-EN.pdf"
